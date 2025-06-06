@@ -1,0 +1,80 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #e10600 !important;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.form-control:focus {
+    border-color: #e10600;
+    box-shadow: 0 0 0 0.2rem rgba(225, 6, 0, 0.25);
+}
+
+.btn-primary {
+    background-color: #e10600;
+    border-color: #e10600;
+}
+
+.btn-primary:hover {
+    background-color: #c10500;
+    border-color: #c10500;
+}
+
+.btn-secondary {
+    background-color: #1e1e1e;
+    border-color: #1e1e1e;
+}
+
+.btn-secondary:hover {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.btn-info {
+    background-color: #00d2be;
+    border-color: #00d2be;
+    color: #fff;
+}
+
+.btn-info:hover {
+    background-color: #00b8a6;
+    border-color: #00b8a6;
+    color: #fff;
+}
+
+#results {
+    min-height: 200px;
+}
+
+.chart-container {
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+.strategy-card {
+    border-left: 4px solid #e10600;
+}
+
+.strategy-card h6 {
+    color: #e10600;
+}
+
+.tire-degradation-chart {
+    height: 200px;
+}
+
+.lap-time-chart {
+    height: 300px;
+} 
